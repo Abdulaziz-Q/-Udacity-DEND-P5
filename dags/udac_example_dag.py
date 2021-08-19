@@ -6,8 +6,8 @@ from airflow.operators import (StageToRedshiftOperator, LoadFactOperator,
                                 LoadDimensionOperator, DataQualityOperator)
 from helpers import SqlQueries
 
-AWS_KEY = os.environ.get('')
-AWS_SECRET = os.environ.get('')
+#AWS_KEY = os.environ.get('AKIAU4*******')
+#AWS_SECRET = os.environ.get('dNpFwD4XDc**********')
 
 default_args = {
     'owner': 'udacity',
